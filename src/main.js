@@ -3,8 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import Buefy from "buefy";
 import "buefy/dist/buefy.css";
+import LottieAnimation from "lottie-vuejs"; // import lottie-vuejs
 
 Vue.use(Buefy);
+Vue.use(LottieAnimation); // add lottie-animation to your global scope
+
 Vue.config.productionTip = false;
 
 new Vue({
